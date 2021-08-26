@@ -1,0 +1,48 @@
+* {
+  font-family: "Besley", serif;
+}
+#quote-box {
+  background-color: #fff;
+  width: 40rem;
+  margin: 0rem auto;
+  padding: 3rem;
+  border-radius: 5px;
+}
+
+#quote-box h1 {
+  background-color: #fff;
+  transition: 0.7s all linear;
+}
+
+#quote-box p {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1.5em;
+  text-align: right;
+  font-style: italic;
+  transition: 0.7s all linear;
+}
+
+#quote-box button {
+  width: 15%;
+  margin: auto;
+  display: block;
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.7s all linear;
+}
+
+#quote-box button:hover {
+  opacity: 0.9;
+}
